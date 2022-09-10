@@ -1,11 +1,14 @@
 #root {
   max-width: 1280px;
+  height: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url(../src/images/nesbackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.nes-container-with-title {
-  gap: 10px;
-  border-radius: 40px;
-}
+
